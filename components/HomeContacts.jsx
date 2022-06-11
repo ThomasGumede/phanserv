@@ -19,7 +19,7 @@ function HomeContacts() {
                         +27835132008
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        +27835132008
+                        +27762802591
                     </p>
                 </div>
             </div>
