@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <Layout>
       
-    <Head  title="Project" link="/services" title_link="Services" img="/images/img4.jpg" img_title="Contacts page" />
+    <Head  title="Projects" link="/services" title_link="Services" img="/images/img4.jpg" img_title="Contacts page" />
       
       <div className="px-8 flex flex-col py-20 md:flex-row justify-center space-x-4 items-center">
         <div className="space-y-4 md:space-y-0 w-full bg-white h-full flex flex-col md:flex-row justify-center space-x-4 items-center">
