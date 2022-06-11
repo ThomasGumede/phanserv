@@ -18,7 +18,7 @@ function HomeProjects() {
                 </div>
                 <div className="justify-self-center self-center">
                     <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-white border-2 border-color-h border-solid outline-none">
-                        <Link href="/services"><a className="text-color-h font-semibold text-sm md:text-base">View More</a></Link>
+                        <Link href="/projects"><a className="text-color-h font-semibold text-sm md:text-base">View More</a></Link>
                         <i className='bx bxs-right-arrow-circle text-color-h'></i>
                     </button>
                 </div>
