@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section className="w-full duration-700 h-full md:h-screen font-sans group overflow-hidden">
       <div className="w-full h-full relative bg-black bg-top-center overflow-hidden">
-        <img src="/images/img3.jpg" alt="geotechnical service in practice" className="w-full h-full duration-500 group-hover:scale-125 object-cover opacity-30" />
+        <img src="/images/img3.jpg" alt="geotechnical service in practice" className="w-full h-full duration-500 delay-300 group-hover:scale-125 object-cover opacity-30" />
         <div className="w-full grid h-full absolute text-center justify-center top-2/4 left-2/4 translate-x-[-50%] translate-y-[-50%] items-center py-16 px-6 mdpx-14">
           <div className="text-white md:w-[56.25rem] space-y-5 md:space-y-10">
             <h1 className="text-3xl md:text-[4.063rem] md:leading-[75px] font-bold">
