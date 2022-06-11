@@ -153,7 +153,7 @@ function Footer() {
             </div>
             <div className="flex items-center space-x-7">
                 <div className="duration-500 hover:animate-bounce">
-                    <a href=h"ttps://web.facebook.com/Phanserv/?_rdc=1&_rdr" target="_blank" className=" text-color-h" rel="noopener noreferrer"><i className='bx text-5xl bxl-facebook-circle'></i></a>
+                    <a href="https://web.facebook.com/Phanserv/?_rdc=1&_rdr" target="_blank" className=" text-color-h" rel="noopener noreferrer"><i className='bx text-5xl bxl-facebook-circle'></i></a>
                 </div>
                 <div className="duration-500 hover:animate-bounce">
                     <a href="mailto:info@phanserve.co.za" target="_blank" className="text-color-h" rel="noopener noreferrer"><i className='bx text-5xl bxs-envelope' ></i></a>
