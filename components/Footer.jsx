@@ -130,7 +130,7 @@ function Footer() {
                             Terms & Conditions
                         </a>
                         </Link>
-                        <Link href="/privacy/terms">
+                        <Link href="/privacy/policy">
                         <a className="text-lg md:text-xl font-semibold text-color-h block p-2">
                             Private Policy
                         </a>
