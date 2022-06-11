@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Link from 'next/link'
 import Layout from '../components/Layout'
 import Head from '../components/Head'
-import TeamCard from '../components/SharedComponents/TeamCard'
+import Card from '../components/SharedComponents/ServiceCard'
 
 const company = () => {
   return (
