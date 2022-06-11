@@ -35,12 +35,6 @@ function HomeContacts() {
                         info@phanserv.co.za
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        phiko@phanserv.co.za
-                    </p>
-                    <p className="text-lg md:text-xl font-normal text-color-p">
-                        geo@phanserv.co.za
-                    </p>
-                    <p className="text-lg md:text-xl font-normal text-color-p">
                         accounts@phanserv.co.za
                     </p>
                 </div>
