@@ -61,7 +61,7 @@ function HomeAboutUs() {
             <div className="space-y-8">
                 <div className="flex w-full items-center space-x-10">
                     <div className="space-y-2">
-						<h4 className="text-5xl text-color-other font-semibold">10</h4>
+						<h4 className="text-5xl text-color-other font-semibold">64</h4>
 						<p className="text-base text-color-h font-normal">Completed Projects</p>
 					</div>
 					<div className="space-y-2">
