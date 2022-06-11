@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "catergory": "Waiting",
+        "title": "Coming Soon",
+        "location": "Waiting...",
+        "image": "/images/img1.jpg"
+    },
+    {
+        "id": 2,
+        "catergory": "Waiting",
+        "title": "Coming Soon",
+        "location": "Waiting...",
+        "image": "/images/img4.jpg"
+    },
+    {
+        "id": 3,
+        "catergory": "Waiting",
+        "title": "Coming Soon",
+        "location": "Waiting...",
+        "image": "/images/img3.jpg"
+    },
+    {
+        "id": 4,
+        "catergory": "Waiting",
+        "title": "Coming Soon",
+        "location": "Waiting...",
+        "image": "/images/img6.jpg"
+    },
+    {
+        "id": 5,
+        "catergory": "",
+        "title": "",
+        "location": "",
+        "image": "/images/img7.jpg"
+    },
+    {
+        "id": 6,
+        "catergory": "Waiting",
+        "title": "Coming Soon",
+        "location": "Waiting...",
+        "image": "/images/img16.jpg"
+    },
+    {
+        "id": 7,
+        "catergory": "Waiting",
+        "title": "Coming Soon",
+        "location": "Waiting...",
+        "image": "/images/img17.jpg"
+    }
+]
