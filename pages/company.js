@@ -73,13 +73,13 @@ const company = () => {
 
         </div>
       </section>
-      <section className="w-full md:h-72 font-sans grid">
+      <section className="w-full h-screen md:h-72 font-sans grid">
         <div className="w-full relative h-full bg-color-h overflow-hidden">
           <img src="/images/img3.jpg" alt="" className="w-full h-full object-cover opacity-50" />
           <div className="absolute top-2/4 left-2/4 translate-x-[-50%] translate-y-[-50%]">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-between gap-7 sm:gap-20 w-full">
                 <div className="space-y-2 text-center">
-                  <h4 className="text-5xl text-white font-bold">5</h4>
+                  <h4 className="text-5xl text-white font-bold">7</h4>
                   <p className="text-lg md:text-xl text-white font-normal">Years Of Expirience</p>
                 </div>
                 <div className="space-y-2 text-center">
