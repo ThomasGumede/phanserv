@@ -150,6 +150,26 @@ const company = () => {
           </div>
         </div>
       </section>
+       <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] py-20 p-3 md:px-7 grid items-center justify-center">
+        <div className="py-16 grid justify-center gap-y-10">
+          <div className="md:w-[848px] space-y-7 justify-self-center text-center">
+            <h4 className="heading">Our Popular Services</h4>
+            <h1 className="section_title md:leading-[60px]">Better Services at an affordable cost</h1>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-centern text-start gap-8 w-full">
+            <Card font="bxs-home" title="Foundation Investigations" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="1"/>
+            <Card font="bxs-hard-hat" title="Geotechnical Investigation" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="/2" />
+            <Card font="bxs-analyse" title="Reporting & Analysis" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="3" />
+          </div>
+          <div className="justify-self-center self-center">
+            <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-[#0E2B5C] border-none outline-none">
+              <Link href="/services"><a className="text-white text-sm">Our Services</a></Link>
+              <i className='bx bxs-right-arrow text-white'></i>
+            </button>
+        </div>
+        </div>
+      </section>
       <section className="w-full bg-white font-sans p-5 py-20 md:px-16 lg:px-24 grid">
         <div className="w-full justify-between grid grid-cols-1 sm:grid-cols-2 md:flex gap-4">
             <div className="self-start">
