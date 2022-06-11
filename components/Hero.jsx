@@ -18,11 +18,11 @@ function Hero() {
             <div className="flex items-center space-x-10">
                 <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-[#0E2B5C] border-none outline-none">
                     <i className='bx bxs-right-arrow text-white'></i>
-                    <a href="http://" className="text-white text-sm md:text-base">Our Services</a>
+                    <a href="http://" className="text-white text-sm md:text-base">Services</a>
                 </button>
                 <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-white border-none outline-none">
                     
-                    <a href="http://" className="text-black text-sm md:text-base">More About Us</a>
+                    <a href="http://" className="text-black text-sm md:text-base">About Us</a>
                 </button>
             </div>
           </div>
