@@ -51,7 +51,7 @@ function HomeAboutUs() {
                     <br />
                     <div className="">
                        <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-white border-2 border-color-h border-solid outline-none">
-                        <Link href="/services"><a className="text-color-h font-semibold text-sm md:text-base">Read More</a></Link>
+                        <Link href="/company"><a className="text-color-h font-semibold text-sm md:text-base">Read More</a></Link>
                         <i className='bx bxs-right-arrow text-color-h'></i>
                         </button>
                     </div>
