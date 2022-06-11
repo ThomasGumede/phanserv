@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 function Hero() {
   return (
-    <section className="w-full duration-700 h-full py-14 md:h-screen font-sans">
+    <section className="w-full duration-700 h-full md:h-screen font-sans">
       <div className="w-full h-full relative bg-back-1 duration-700 bg-cover bg-top-center">
-        <div className="w-full grid h-full items-center px-6 md:px-14">
+        <div className="w-full grid h-full items-center py-14 md:py-0 px-6 md:px-14">
           <div className="text-white md:w-[56.25rem] space-y-5 md:space-y-10">
             <h1 className="text-3xl md:text-[4.063rem] md:leading-[4.375rem] lg:text-[4.375rem] lg:leading-[86px] font-bold">
               Your Safety Is Our Responsibility
