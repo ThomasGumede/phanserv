@@ -98,17 +98,55 @@ const company = () => {
           </div>
         </div>
       </section>
-      <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] py-28 p-3 md:px-7 grid items-center justify-center">
-        <div className="py-16 grid justify-center gap-y-10">
-          <div className="md:w-[848px] space-y-7 justify-self-center text-center">
-            <h4 className="heading">Our Team</h4>
-            <h1 className="section_title md:leading-[60px]">Our Expert Team</h1>
+    <section className="w-full h-full font-sans bg-white py-20 p-3 md:px-36 grid items-center justify-center">
+        <div className="py-16 grid justify-center gap-y-7">
+          <div className="flex flex-col md:flex-row items-center gap-7">
+            <div className="space-y-4">
+              <h1 className="text-color-h text-xl md:text-2xl font-semibold">Partnership</h1>
+              <p className="text-base text-color-p">
+                Phaneretic Services (Pty) Ltd works in close collaboration
+                with competent, experienced and independent geotech-
+                nical engineers, geohydrologists, geophysicists, and envi-
+                ronmental specialists. This network of specialists is able
+                to provide versatile and cost effective consulting services
+                to a wide variety of clients.
+              </p>
+            </div>
+            <div className="space-y-4">
+              <h1 className="text-color-h text-xl md:text-2xl font-semibold">Our Mission</h1>
+              <p className="text-base text-color-p">
+                We believe in personalised and professional service, long
+                term relationships, mutual trust and building resolute part-
+                nerships with our clients. We understand that trust is
+                earned and aspire to proving that the company provides
+                the ideal combination of competent technical expertise
+                and professional integrity.
+              </p>
+            </div>
           </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-centern text-start gap-8 w-full">
-            <TeamCard />
-            <TeamCard />
-            <TeamCard />
+          <div className="text-center">
+            <div className="space-y-4">
+              <h1 className="text-color-h text-xl md:text-2xl font-semibold">Our Vision</h1>
+              <p className="text-base text-color-p">
+               To become a market leader in consulting engineering through the application of proven effective methods to engineering solutions,
+                but using a fresh approach
+              </p>
+            </div>
+          </div>
+          <div className="text-center">
+            <div className="space-y-4">
+              <h1 className="text-color-h text-xl md:text-2xl font-semibold">Social Responsibility</h1>
+              <p className="text-base text-color-p">
+                The company is committed to an active affirmation action policy. Priority is given to historically disadvantaged individuals
+                (HDIs) when recruiting new staff, or to B-BBEE-compliant companies when outsourcing specialist services. Currently, the
+                firm has a 100% HDI staff complement, most of whom are youth. The firm places high emphasis, however, on the compe-
+                tence, experience, and/or development potential of these individuals and firms, so as not to compromise on the quality of the
+                service delivered to the Client.
+              </p>
+              <p className="text-base text-color-p">
+                  We are sponsoring a soccer team, donating uniform to a rural school, working on partnering with 2 NPO/NGO&apos;s, and did a pro bono job for a community looking to get sponsors for building a Combi-Court (sporting facility).
+              </p>
+            </div>
           </div>
         </div>
       </section>
