@@ -64,6 +64,16 @@ function Footer() {
                     Quick Links
                 </h4>
                 <div className="space-y-2">
+                    <Link href="/">
+                       <a className="text-sm text-white block p-2">
+                            Home
+                        </a> 
+                    </Link>
+                    <Link href="/services">
+                       <a className="text-sm text-white block p-2">
+                            Services
+                        </a> 
+                    </Link>
                     <Link href="/projects">
                        <a className="text-sm text-white block p-2">
                             Projects
@@ -87,32 +97,32 @@ function Footer() {
                 <h4
                     className="font-semibold text-white p-2 text-lg"
                 >
-                    Services
+                    Projects
                 </h4>
                 <div className="space-y-2">
-                    <Link href="/services">
+                    <Link href='/services'>
                       <a className="text-sm text-white block p-2">
-                        Foundation investigation
+                        Mbatha Rural Housing Development Phase 1
                     </a>  
                     </Link>
                     <Link href="/services">
                        <a className="text-sm text-white block p-2">
-                            Centerline Geotechnical Investigation
+                            Nkonjeni Hospital Student and Staff Residence
                         </a>  
                     </Link>
                     <Link href="/services">
                         <a href="" className="text-sm text-white block p-2">
-                            Reporting & Analysis
+                            DBSA Schools ,Water and Sanitation
                         </a>  
                     </Link>
                     <Link href="/services">
                         <a href="" className="text-sm text-white block p-2">
-                            Rural , Township & Urban Development
+                            Mvuzane Access Road and Culvert
                         </a>
                     </Link>
                     <Link href="/services">
                        <a href="" className="text-sm text-white block p-2">
-                            Percolation Tests
+                            Ntonjambini Pipeline Project
                         </a> 
                     </Link>   
                 </div>
@@ -143,10 +153,10 @@ function Footer() {
             </div>
             <div className="flex items-center space-x-7">
                 <div className="duration-500 hover:animate-bounce">
-                    <a href="http://" target="_blank" className=" text-color-h" rel="noopener noreferrer"><i className='bx text-5xl bxl-facebook-circle'></i></a>
+                    <a href=h"ttps://web.facebook.com/Phanserv/?_rdc=1&_rdr" target="_blank" className=" text-color-h" rel="noopener noreferrer"><i className='bx text-5xl bxl-facebook-circle'></i></a>
                 </div>
                 <div className="duration-500 hover:animate-bounce">
-                    <a href="http://" target="_blank" className="text-color-h" rel="noopener noreferrer"><i className='bx text-5xl bxs-envelope' ></i></a>
+                    <a href="mailto:info@phanserve.co.za" target="_blank" className="text-color-h" rel="noopener noreferrer"><i className='bx text-5xl bxs-envelope' ></i></a>
                 </div>
                 <div className="duration-500 hover:animate-bounce">
                     <a href="http://" target="_blank" className="text-color-h" rel="noopener noreferrer"><i className='bx text-5xl bxl-whatsapp'></i></a>
