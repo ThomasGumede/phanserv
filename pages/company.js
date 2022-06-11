@@ -160,7 +160,7 @@ const company = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-centern text-start gap-8 w-full">
             <Card font="bxs-home" title="Foundation Investigations" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="1"/>
-            <Card font="bxs-hard-hat" title="Geotechnical Investigation" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="/2" />
+            <Card font="bxs-hard-hat" title="Geotechnical Investigation" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="2" />
             <Card font="bxs-analyse" title="Reporting & Analysis" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="3" />
           </div>
           <div className="justify-self-center self-center">
