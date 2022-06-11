@@ -54,13 +54,13 @@ function HomeContacts() {
                         Visit Us: 
                     </h1>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        Gxulu Location,
+                        22 Gerald Spilkin Street,
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        Zithathele A.A, Libode,
+                        Ikhwezi Township, Umtata,
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                         5160
+                         5099
                     </p>
                 </div>
             </div>
