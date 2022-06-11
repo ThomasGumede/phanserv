@@ -1,9 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Link from 'next/link'
 import Card from '../components/SharedComponents/ServiceCard'
 import Layout from '../components/Layout'
 import Head from '../components/Head'
-import data from '../data/services.data'
 
 function services() {
   return (
@@ -15,11 +15,149 @@ function services() {
             <h4 className="heading">Our Services</h4>
             <h1 className="section_title md:leading-[60px]">High Quality Geotechnical Solutions Since 2017</h1>
           </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 items-center text-start gap-7 w-full">
-              {data.map((service) => (
-                  <Card key={service.id} font={service.icon} title={service.title} description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id={service.id}/>
-              ))}
+        </div>
+      </section>
+      <section className="w-full h-full font-sans bg-white py-20 p-3 md:px-36 grid items-center justify-center">
+        <div className="space-y-7">
+            <div className="space-y-4">
+                <h1 className="text-color-h text-xl md:text-2xl font-semibold">Geotechnical Services</h1>
+                <p className="text-base text-color-p">
+                    Geotechnical consulting & investigations have been carried out over both non-dolomitic 
+                    areas for numerous Consulting Civil Engineering and Town Planning firms.
+                </p>
+              
+                <p className="text-base text-color-p">
+                    Phaneretic&apos;s geotechnical consulting services include:
+                </p>
+                <ul className="p-4 gap-6 grid grid-cols-1 md:grid-cols-2">
+                    <li>
+                        <div className="flex items-center space-x-4">
+                            <div className="text-6xl text-color-h"><i className="bx bxs-home "></i></div>
+                            <div className="spce-y-2">
+                                <h4 className="font-semibold text-2xl text-color-h">Foundation Investigations</h4>
+                                <ul className="text-color-p text-sm list-disc p-2">
+                                    <li>
+                                        NHBRC Phase 1 Geotechnical Investigation
+                                    </li>
+                                    <li>
+                                        NHBRC Phase 2 Geotechnical Investigation
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="flex items-center space-x-4">
+                            <div className="text-6xl text-color-h"><i className="bx bxs-hard-hat"></i></div>
+                            <div className="spce-y-2">
+                                <h4 className="font-semibold text-2xl text-color-h">Centerline Geotechnical Investigation</h4>
+                                <ul className="text-color-p text-sm list-disc p-2">
+                                    <li>
+                                        Roads, bridges and Culverts
+                                    </li>
+                                    <li>
+                                        Pipelines, Canals and Reservoirs
+                                    </li>
+                                    <li>
+                                        Railways
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="flex items-center space-x-4">
+                            <div className="text-6xl text-color-h"><i className="bx bxs-analyse "></i></div>
+                            <div className="spce-y-2">
+                                <h4 className="font-semibold text-2xl text-color-h">Reporting & Analysis</h4>
+                                <ul className="text-color-p text-sm list-disc p-2">
+                                    <li>
+                                        Reports signed off by qualified registered personell
+                                    </li>
+                                    <li>
+                                        Foundation analysis
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="flex items-center space-x-4">
+                            <div className="text-6xl text-color-h"><i className="bx bxs-group "></i></div>
+                            <div className="spce-y-2">
+                                <h4 className="font-semibold text-2xl text-color-h">Other Services</h4>
+                                <ul className="text-color-p text-sm list-disc p-2">
+                                    <li>
+                                        rural, Township and Urban Development
+                                    </li>
+                                    <li>
+                                        Recreation
+                                    </li>
+                                    <li>
+                                        Percolation Tests
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+            <div className="space-y-4">
+              <h1 className="text-color-h text-xl md:text-2xl font-semibold">GEOTECHNICAL INVESTIGATIONS</h1>
+              <p className="text-base text-color-p">
+                Phaneretic Services (Pty) Ltd is continuously involved in a variety of Geotechnical Investigations for a range of different projects including:
+              </p>
+              <ul className="text-color-p text-base p-4 list-disc">
+                    <li>Foundation Investigations</li>
+                    <li>NHBRC Phase 1 and Phase 2 Investigations</li>
+                    <li>Road Centre Line and Material Investigations</li>
+                    <li>Pavement material Investigations</li>
+                    <li>Bridges</li>
+                    <li>Pipelines and Reservoirs</li>
+                    <li>Borrow pit investigations</li> 
+              </ul>
+            </div>
+            <div className="space-y-4">
+              <h1 className="text-color-h text-xl md:text-2xl font-semibold">VARIOUS DEPENDANT PROJECTS</h1>
+              <p className="text-base text-color-p">
+                Our involvement in these projects varies project dependent but generally includes any of the following aspects:
+              </p>
+              <ul className="text-color-p text-base list-disc p-4">
+                    <li>Desktop Reviews</li>
+                    <li>Mapping</li>
+                    <li>Test Pit Profiling</li>
+                    <li>Auger Hole Profiling</li>
+                    <li>Borehole Core Profiling or Percussion Chip Logging</li>
+                    <li>Soil and Rock Sampling</li>
+                    <li>DCP, DPL and DPSH Testing</li>
+                    <li>Percolation Testing</li> 
+                    <li>Interpretation of Laboratory Test Results</li> 
+              </ul>
+            </div>
+        </div>
+      </section>
+      <section className="w-full h-screen md:h-72 font-sans grid">
+        <div className="w-full relative h-full bg-color-h overflow-hidden">
+          <img src="/images/img3.jpg" alt="" className="w-full h-full object-cover opacity-50" />
+          <div className="absolute top-2/4 left-2/4 translate-x-[-50%] translate-y-[-50%]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-between gap-7 sm:gap-20 w-full">
+                <div className="space-y-2 text-center">
+                  <h4 className="text-5xl text-white font-bold">7</h4>
+                  <p className="text-lg md:text-xl text-white font-normal">Years Of Expirience</p>
+                </div>
+                <div className="space-y-2 text-center">
+                  <h4 className="text-5xl text-white font-bold">67</h4>
+                  <p className="text-lg md:text-xl text-white font-normal">Completed Projects</p>
+                </div>
+                <div className="space-y-2 text-center">
+                  <h4 className="text-5xl text-white font-bold">25</h4>
+                  <p className="text-lg md:text-xl text-white font-normal">Satisfied Clients</p>
+                </div>
+                <div className="space-y-2 text-center">
+                  <h4 className="text-5xl text-white font-bold">5</h4>
+                  <p className="text-lg md:text-xl text-white font-normal">Qualified Employees</p>
+                </div>
+            </div>
           </div>
         </div>
       </section>
@@ -40,7 +178,7 @@ function services() {
                         +27835132008
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        +27835132008
+                        +27762802591
                     </p>
                 </div>
             </div>
@@ -53,10 +191,10 @@ function services() {
                         Email Us: 
                     </h1>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        phanereticservices@gmail.com
+                        info@phanserve.co.za
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        phanereticservices@gmail.com
+                        accounts@phanserve.co.za
                     </p>
                 </div>
             </div>
@@ -69,13 +207,13 @@ function services() {
                         Visit Us: 
                     </h1>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        Gxulu Location,
+                        22 Gerald Spilkin Street,
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        Zithathele Location Libode,
+                        Ikhwezi Township, Umtata,
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                         5160
+                         5099
                     </p>
                 </div>
             </div>

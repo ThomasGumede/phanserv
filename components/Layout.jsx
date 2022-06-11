@@ -4,15 +4,14 @@ import NavBar from './Navbar'
 import Script from 'next/script'
 import Footer from './Footer';
 
-function Layout({children}) {
+function Layout({children, title}) {
   return (
       <div>
         <Head>
-          <title>PHANSERV</title>
+          <title>PHANSERV - {title}</title>
           <meta charSet="utf-8" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="mobile-web-app-capable" content="yes" />
-          <meta name="robots" content="follow, index" />
           
 
           <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -26,7 +25,7 @@ function Layout({children}) {
  
           <meta property="og:type" content="website" />
           <meta property="og:site_name" content="Phaneretic Services" />
-          <meta content="Geotechical Investigations" name="keywords" />
+          <meta content="Geotechical Investigations, Geotechical Consultations" name="keywords" />
           <meta content="Fa specialist Geotechnical / Engineering Geological company with a team of qualified and competent Engineering Geologists and Professional Civil Technician (led by an Engineering Geologists who is registered with SACNASP and SAIEG), which work closely together to provide a services which far exceed the industry standards" name="description" />
           <meta
             property="og:description"

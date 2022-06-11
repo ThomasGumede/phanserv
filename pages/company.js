@@ -1,13 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Link from 'next/link'
 import Layout from '../components/Layout'
 import Head from '../components/Head'
-import TeamCard from '../components/SharedComponents/TeamCard'
+import Card from '../components/SharedComponents/ServiceCard'
 
 const company = () => {
   return (
     <Layout>
-      <Head title="About Us" link="/company" title_link="About Us" img="/images/img1.jpg" img_title="About Us page" />
+      <Head title="About Us" link="/company" title_link="About Us" img="/images/img8.jpg" img_title="About Us page" />
       <section className="w-full p-5 font-sans py-36 md:px-16 lg:px-24 grid items-center justify-center">
         <div className="gap-10 flex items-center flex-col md:flex-row w-full justify-between">
             <div className="space-y-7 md:w-2/4">
@@ -58,7 +59,7 @@ const company = () => {
             <div className="space-y-8">
                 <div className="flex w-full items-center space-x-10">
                   <div className="space-y-2">
-                    <h4 className="text-5xl text-color-other font-semibold">10</h4>
+                    <h4 className="text-5xl text-color-other font-semibold">67</h4>
                     <p className="text-base text-color-h font-normal">Completed Projects</p>
                   </div>
                   <div className="space-y-2">
@@ -73,17 +74,17 @@ const company = () => {
 
         </div>
       </section>
-      <section className="w-full md:h-72 font-sans grid">
+      <section className="w-full h-screen md:h-72 font-sans grid">
         <div className="w-full relative h-full bg-color-h overflow-hidden">
           <img src="/images/img3.jpg" alt="" className="w-full h-full object-cover opacity-50" />
           <div className="absolute top-2/4 left-2/4 translate-x-[-50%] translate-y-[-50%]">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 items-center justify-between gap-7 sm:gap-20 w-full">
                 <div className="space-y-2 text-center">
-                  <h4 className="text-5xl text-white font-bold">5</h4>
+                  <h4 className="text-5xl text-white font-bold">7</h4>
                   <p className="text-lg md:text-xl text-white font-normal">Years Of Expirience</p>
                 </div>
                 <div className="space-y-2 text-center">
-                  <h4 className="text-5xl text-white font-bold">10</h4>
+                  <h4 className="text-5xl text-white font-bold">67</h4>
                   <p className="text-lg md:text-xl text-white font-normal">Completed Projects</p>
                 </div>
                 <div className="space-y-2 text-center">
@@ -98,18 +99,76 @@ const company = () => {
           </div>
         </div>
       </section>
-      <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] py-28 p-3 md:px-7 grid items-center justify-center">
+    <section className="w-full h-full font-sans bg-white py-20 p-3 md:px-36 grid items-center justify-center">
+        <div className="py-16 grid justify-center gap-y-7">
+          <div className="flex flex-col md:flex-row items-center gap-7">
+            <div className="space-y-4">
+              <h1 className="text-color-h text-xl md:text-2xl font-semibold">Partnership</h1>
+              <p className="text-base text-color-p">
+                Phaneretic Services (Pty) Ltd works in close collaboration
+                with competent, experienced and independent geotech-
+                nical engineers, geohydrologists, geophysicists, and envi-
+                ronmental specialists. This network of specialists is able
+                to provide versatile and cost effective consulting services
+                to a wide variety of clients.
+              </p>
+            </div>
+            <div className="space-y-4">
+              <h1 className="text-color-h text-xl md:text-2xl font-semibold">Our Mission</h1>
+              <p className="text-base text-color-p">
+                We believe in personalised and professional service, long
+                term relationships, mutual trust and building resolute part-
+                nerships with our clients. We understand that trust is
+                earned and aspire to proving that the company provides
+                the ideal combination of competent technical expertise
+                and professional integrity.
+              </p>
+            </div>
+          </div>
+          <div className="text-center">
+            <div className="space-y-4">
+              <h1 className="text-color-h text-xl md:text-2xl font-semibold">Our Vision</h1>
+              <p className="text-base text-color-p">
+               To become a market leader in consulting engineering through the application of proven effective methods to engineering solutions,
+                but using a fresh approach
+              </p>
+            </div>
+          </div>
+          <div className="text-center">
+            <div className="space-y-4">
+              <h1 className="text-color-h text-xl md:text-2xl font-semibold">Social Responsibility</h1>
+              <p className="text-base text-color-p">
+                The company is committed to an active affirmation action policy. Priority is given to historically disadvantaged individuals
+                (HDIs) when recruiting new staff, or to B-BBEE-compliant companies when outsourcing specialist services. Currently, the
+                firm has a 100% HDI staff complement, most of whom are youth. The firm places high emphasis, however, on the compe-
+                tence, experience, and/or development potential of these individuals and firms, so as not to compromise on the quality of the
+                service delivered to the Client.
+              </p>
+              <p className="text-base text-color-p">
+                  We are sponsoring a soccer team, donating uniform to a rural school, working on partnering with 2 NPO/NGO&apos;s, and did a pro bono job for a community looking to get sponsors for building a Combi-Court (sporting facility).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+       <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] py-20 p-3 md:px-7 grid items-center justify-center">
         <div className="py-16 grid justify-center gap-y-10">
           <div className="md:w-[848px] space-y-7 justify-self-center text-center">
-            <h4 className="heading">Our Team</h4>
-            <h1 className="section_title md:leading-[60px]">Our Expert Team</h1>
+            <h4 className="heading">Our Popular Services</h4>
+            <h1 className="section_title md:leading-[60px]">Better Services at an affordable cost</h1>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-centern text-start gap-8 w-full">
-            <TeamCard />
-            <TeamCard />
-            <TeamCard />
+            <Card font="bxs-home" title="Foundation Investigations" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" />
+            <Card font="bxs-hard-hat" title="Geotechnical Investigation" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" />
+            <Card font="bxs-analyse" title="Reporting & Analysis" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" />
           </div>
+          <div className="justify-self-center self-center">
+            <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-[#0E2B5C] border-none outline-none">
+              <Link href="/services"><a className="text-white text-sm">Our Services</a></Link>
+              <i className='bx bxs-right-arrow text-white'></i>
+            </button>
+        </div>
         </div>
       </section>
       <section className="w-full bg-white font-sans p-5 py-20 md:px-16 lg:px-24 grid">
@@ -129,7 +188,7 @@ const company = () => {
                         +27835132008
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        +27835132008
+                        +27762802591
                     </p>
                 </div>
             </div>
@@ -142,10 +201,10 @@ const company = () => {
                         Email Us: 
                     </h1>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        phanereticservices@gmail.com
+                        info@phanserv.co.za
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        phanereticservices@gmail.com
+                        accounts@phanserv.co.za
                     </p>
                 </div>
             </div>
@@ -158,13 +217,13 @@ const company = () => {
                         Visit Us: 
                     </h1>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        Gxulu Location,
+                        22 Gerald Spilkin Street,
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        Zithathele Location Libode,
+                        Ikhwezi Township, Umtata,
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                         5160
+                         5099
                     </p>
                 </div>
             </div>

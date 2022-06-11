@@ -51,7 +51,7 @@ function HomeAboutUs() {
                     <br />
                     <div className="">
                        <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-white border-2 border-color-h border-solid outline-none">
-                        <Link href="/services"><a className="text-color-h font-semibold text-sm md:text-base">Read More</a></Link>
+                        <Link href="/company"><a className="text-color-h font-semibold text-sm md:text-base">Read More</a></Link>
                         <i className='bx bxs-right-arrow text-color-h'></i>
                         </button>
                     </div>
@@ -61,7 +61,7 @@ function HomeAboutUs() {
             <div className="space-y-8">
                 <div className="flex w-full items-center space-x-10">
                     <div className="space-y-2">
-						<h4 className="text-5xl text-color-other font-semibold">10</h4>
+						<h4 className="text-5xl text-color-other font-semibold">67</h4>
 						<p className="text-base text-color-h font-normal">Completed Projects</p>
 					</div>
 					<div className="space-y-2">

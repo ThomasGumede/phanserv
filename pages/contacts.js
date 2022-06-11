@@ -31,7 +31,7 @@ const contacts = () => {
                         +27835132008
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        +27835132008
+                        +27762802591
                     </p>
                 </div>
             </div>
@@ -44,10 +44,10 @@ const contacts = () => {
                         Email Us: 
                     </h1>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        phanereticservices@gmail.com
+                        info@phanserve.co.za
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        phanereticservices@gmail.com
+                        Accounts@phanserve.co.za
                     </p>
                 </div>
             </div>
@@ -60,13 +60,13 @@ const contacts = () => {
                         Visit Us: 
                     </h1>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        Gxulu Location,
+                        22 Gerald Spilkin Street,
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        Zithathele Location Libode,
+                        Ikhwezi Township, Umtata,
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                         5160
+                         5099
                     </p>
                 </div>
             </div>

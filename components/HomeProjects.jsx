@@ -16,12 +16,7 @@ function HomeProjects() {
 						Our Recent Works
 					</h1>
                 </div>
-                <div className="justify-self-center self-center">
-                    <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-white border-2 border-color-h border-solid outline-none">
-                        <Link href="/projects"><a className="text-color-h font-semibold text-sm md:text-base">View More</a></Link>
-                        <i className='bx bxs-right-arrow-circle text-color-h'></i>
-                    </button>
-                </div>
+                
                 {/* <div className="space-x-4 owl-nav hidden md:flex items-center">
 					<div className="owl-prev cursor-pointer text-color-h text-5xl owl-prev">
 						<i className='bx bxs-left-arrow-circle'></i>	
@@ -31,11 +26,17 @@ function HomeProjects() {
 					</div>
 				</div> */}
             </div>
-            <div className=" w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img1.jpg" />
-                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img6.jpg"  />
-                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img17.jpg"  />
+            <div className=" w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img/img4.jpg" id="1" />
+                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img/img-2.jpg" id="2" />
+                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img/im.jpg" id="3" />
             </div>
+		<div className="justify-self-center self-center">
+                    <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-white border-2 border-color-h border-solid outline-none">
+                        <Link href="/projects"><a className="text-color-h font-semibold text-sm md:text-base">View More</a></Link>
+                        <i className='bx bxs-right-arrow-circle text-color-h'></i>
+                    </button>
+                </div>
             
         </div>
     </section>

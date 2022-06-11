@@ -14,10 +14,6 @@ module.exports = {
         'color-other': 'hsl(43,100%,49%)'
       
     },
-      backgroundImage: {
-        'back-1': 'linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("/images/img3.jpg")',
-        'back-2': 'linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46))'
-      },
       backgroundPosition: {
       bottom: 'bottom',
       'top-center': 'top center',

@@ -1,51 +1,142 @@
 [
     {
         "id": 1,
-        "catergory": "Waiting",
-        "title": "Coming Soon",
-        "location": "Waiting...",
-        "image": "/images/img1.jpg"
+        "catergory": "TEST PIT, DYNAMIC CONE PENETROMETER TEST, DPSH TEST, AUGER HOLES, PERCOLATION TEST,",
+        "image": "/images/img/img4.jpg",
+        "gallery": [
+            {
+                "id": 1,
+                "image":"/images/img/img.jpg"
+            },
+            {
+                "id": 2,
+                "image":"/images/img/img3.jpg"
+            },
+            {
+                "id": 3,
+                "image":"/images/img/img4.jpg"
+            }
+
+        ]
     },
     {
         "id": 2,
-        "catergory": "Waiting",
-        "title": "Coming Soon",
-        "location": "Waiting...",
-        "image": "/images/img4.jpg"
+        "catergory": "CORE LOGGING, CHIP LOGGING, SOIL AND ROCK LOGGING",
+        "image": "/images/img/img-2.jpg",
+        "gallery": [
+            {
+                "id": 1,
+                "image":"/images/img/img-1.jpg"
+            },
+            {
+                "id": 2,
+                "image":"/images/img/img-2.jpg"
+            },
+            {
+                "id": 3,
+                "image":"/images/img/img-3.jpg"
+            }
+
+        ]
     },
     {
         "id": 3,
-        "catergory": "Waiting",
-        "title": "Coming Soon",
-        "location": "Waiting...",
-        "image": "/images/img3.jpg"
+        "catergory": "ROAD MATERIAL INVESTIGATION, BORROW PIT INVESTIGATION, BRIDGES AND CULVERTS",
+        "image": "/images/img/im.jpg",
+        "gallery": [
+            {
+                "id": 1,
+                "image":"/images/img/im.jpg"
+            },
+            {
+                "id": 2,
+                "image":"/images/img/im-3.jpg"
+            },
+            {
+                "id": 3,
+                "image":"/images/img/im-4.jpg"
+            }
+
+        ]
     },
     {
         "id": 4,
-        "catergory": "Waiting",
-        "title": "Coming Soon",
-        "location": "Waiting...",
-        "image": "/images/img6.jpg"
+        "catergory": "ABLUTION BLOCK FOUNDATION INVESTIGATION",
+        "image": "/images/img/im1.jpg",
+        "gallery": [
+            {
+                "id": 1,
+                "image":"/images/img/im1.jpg"
+            },
+            {
+                "id": 2,
+                "image":"/images/img/im2.jpg"
+            },
+            {
+                "id": 3,
+                "image":"/images/img/im5.jpg"
+            }
+
+        ]
     },
     {
         "id": 5,
-        "catergory": "",
-        "title": "",
-        "location": "",
-        "image": "/images/img7.jpg"
+        "catergory": "FOUNDATION INVESTIGATION",
+        "image": "/images/img/iim.jpg",
+        "gallery": [
+            {
+                "id": 1,
+                "image":"/images/img/iim2.jpg"
+            },
+            {
+                "id": 2,
+                "image":"/images/img/iim.jpg"
+            },
+            {
+                "id": 3,
+                "image":"/images/img/iim5.jpg"
+            }
+
+        ]
     },
     {
         "id": 6,
-        "catergory": "Waiting",
-        "title": "Coming Soon",
-        "location": "Waiting...",
-        "image": "/images/img16.jpg"
+        "catergory": "PIPELINE AND RESERVIOR INVESTIGATION (BULK WATER SUPPLY SCHEME), WASTEWATER TREATMENT INVESTIGATION",
+        "image": "/images/img/imm5.jpg",
+        "gallery": [
+            {
+                "id": 1,
+                "image":"/images/img/imm5.jpg"
+            },
+            {
+                "id": 2,
+                "image":"/images/img/imm4.jpg"
+            },
+            {
+                "id": 3,
+                "image":"/images/img/imm6.jpg"
+            }
+
+        ]
     },
     {
         "id": 7,
-        "catergory": "Waiting",
-        "title": "Coming Soon",
-        "location": "Waiting...",
-        "image": "/images/img17.jpg"
+        "catergory": "PHASE 1 AND PHASE 2 LOW COST HOUSING ",
+        "image": "/images/img/imm-1.jpg",
+        "gallery": [
+            {
+                "id": 1,
+                "image":"/images/img/imm-1.jpg"
+            },
+            {
+                "id": 2,
+                "image":"/images/img/imm-2.jpg"
+            },
+            {
+                "id": 3,
+                "image":"/images/img/imm-5.jpg"
+            }
+
+        ]
     }
 ]

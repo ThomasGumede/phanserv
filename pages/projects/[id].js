@@ -2,30 +2,42 @@
 import React from 'react'
 import Head from '../../components/Head'
 import Layout from '../../components/Layout'
+import ProjectCard from '../../components/SharedComponents/ProjectCard'
+import data from "../../data/projects.data";
 
-const Project = () => {
+const Project = ({ id }) => {
+  const id_no = parseInt(id)
+  const project = data.filter((data) => data.id === id_no);
+  const title = project.map(title => (title.catergory))
   return (
     <Layout>
       
-    <Head  title="Projects" link="/services" title_link="Services" img="/images/img4.jpg" img_title="Contacts page" />
-      
-      <div className="px-8 flex flex-col py-20 md:flex-row justify-center space-x-4 items-center">
-        <div className="space-y-4 md:space-y-0 w-full bg-white h-full flex flex-col md:flex-row justify-center space-x-4 items-center">
-          <div>
-            <img src="/images/rem.gif" alt="" className='md:w-[450px] md:h-[450px]' />
-          </div>
-            <div className="space-y-2 md:w-[500px] p-2">
-              <h1 className="font-bold text-3xl md:text-5xl text-h1-color md:leading-relaxed">
-                New Information Coming...
-              </h1>
-              <p className="text-base text-gray-500 font-regular leading-relaxed">
-                Sorry for not being fast. We&apos;re still developing this site and our team is working 24/7 to make sure that everything is up and running soon. Some components are still in development... will let you know when we&apos;re done. please be patient and use the available services
-              </p>
+      <Head  title="Projects" link="/projects" title_link="Projects" img="/images/img4.jpg" img_title={title[0]} />
+      <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] p-3 py-20 md:px-7 grid items-center justify-center">
+        <div className="py-16">
+          <div className="justify-self-center text-center">
+            <h4 className="heading capitalize">{title[0]}</h4>
           </div>
         </div>
-      </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 items-center justify-center gap-6 w-full">
+            {project.map((pro) => (
+              pro.gallery.map((img) => (
+                <div key={img.id} className="relative w-[330px] h-[450px] cursor-pointer overflow-hidden group duration-500">
+                  <div className="w-full h-full overflow-hidden">
+                    <img src={img.image} alt="" className="w-full h-full duration-500 group-hover:scale-110 object-cover" />
+                  </div>
+                </div>
+              ))
+            ))}
+          </div>
+      </section>
     </Layout>
   )
 }
+
+
+Project.getInitialProps = ({ query: { id } }) => {
+  return { id };
+};
 
 export default Project
