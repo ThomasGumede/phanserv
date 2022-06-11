@@ -47,12 +47,6 @@ const contacts = () => {
                         info@phanserve.co.za
                     </p>
                     <p className="text-lg md:text-xl font-normal text-color-p">
-                        phiko@phanserve.co.za
-                    </p>
-                    <p className="text-lg md:text-xl font-normal text-color-p">
-                        geo@phanserve.co.za
-                    </p>
-                    <p className="text-lg md:text-xl font-normal text-color-p">
                         Accounts@phanserve.co.za
                     </p>
                 </div>
