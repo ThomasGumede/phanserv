@@ -29,7 +29,7 @@ function HomeProjects() {
             <div className=" w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img1.jpg" />
                 <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img6.jpg"  />
-                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img17.jpg"  />
+                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img4.jpg"  />
             </div>
 		<div className="justify-self-center self-center">
                     <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-white border-2 border-color-h border-solid outline-none">
