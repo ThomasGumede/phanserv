@@ -58,7 +58,7 @@ const company = () => {
             <div className="space-y-8">
                 <div className="flex w-full items-center space-x-10">
                   <div className="space-y-2">
-                    <h4 className="text-5xl text-color-other font-semibold">10</h4>
+                    <h4 className="text-5xl text-color-other font-semibold">67</h4>
                     <p className="text-base text-color-h font-normal">Completed Projects</p>
                   </div>
                   <div className="space-y-2">
@@ -83,7 +83,7 @@ const company = () => {
                   <p className="text-lg md:text-xl text-white font-normal">Years Of Expirience</p>
                 </div>
                 <div className="space-y-2 text-center">
-                  <h4 className="text-5xl text-white font-bold">10</h4>
+                  <h4 className="text-5xl text-white font-bold">67</h4>
                   <p className="text-lg md:text-xl text-white font-normal">Completed Projects</p>
                 </div>
                 <div className="space-y-2 text-center">
