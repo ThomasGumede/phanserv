@@ -160,9 +160,9 @@ const company = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-centern text-start gap-8 w-full">
 
-            <Card font="bxs-home" title="Foundation Investigations" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="1"/>
-            <Card font="bxs-hard-hat" title="Geotechnical Investigation" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="2" />
-            <Card font="bxs-analyse" title="Reporting & Analysis" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="3" />
+            <Card font="bxs-home" title="Foundation Investigations" description="Investigations for the NHBRC Enrolment of a single stand or site within a development in order to assist with foundation design"/>
+            <Card font="bxs-hard-hat" title="Geotechnical Investigation" description="Geo-environmental and hydrological investigations for environmentally sensitive developments such as Sludge dams, Filling Stations, Landfill Sites, Cemeteries, Effluent Dams, Golf courses, Wastewater treatment, and Wetlands." />
+            <Card font="bxs-analyse" title="Reporting & Analysis" description="Detailed borrow pit exploration exercises conducted in order to located possible sources of material which are suitable for the use in construction, such as material used as bedding for p,ipelines, layer works in roads and rock and clay for the use in earth fill dam walls." />
 
           </div>
           <div className="justify-self-center self-center">
