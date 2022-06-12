@@ -1,31 +1,45 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
+import React, {useState} from 'react'
 import Link from 'next/link'
 
 function Hero() {
+  const [shadow, setShadow] = useState(false)
+
+  if (typeof window === 'undefined'){
+  
+    }else {
+      if (window.scrollY >= 200){
+        setShadow(true)
+      }
+    }
+
   return (
-    <section className="w-full duration-700 h-screen font-sans group overflow-hidden">
+    <section className="w-full duration-700 h-screen mt-11 font-sans group overflow-hidden">
       <div className="w-full h-full relative bg-black bg-top-center overflow-hidden">
         <img src="/images/img4.jpg" alt="geotechnical service in practice" className="w-full h-full duration-500 delay-300 group-hover:scale-125 object-cover opacity-30" />
         <div className="w-full grid h-full absolute text-center justify-center top-2/4 left-2/4 translate-x-[-50%] translate-y-[-50%] items-center py-16 px-6 mdpx-14">
-          <div className="text-white md:w-[56.25rem] space-y-5 md:space-y-10">
-            <h1 className="text-3xl md:text-[4.063rem] md:leading-[75px] font-bold">
+          <div className="text-white grid md:w-[56.25rem] space-y-3 md:space-y-5">
+            <p className="text-xl relative text-white font-normal uppercase">
+                Welcome To Phaneretic Services
+            </p>
+            <div className="w-16 h-1 self-center justify-self-center bg-color-other"></div>
+            {/* <h1 className="text-3xl md:text-[4.063rem] uppercase md:leading-[75px] font-bold">
               Your Safety Is Our Responsibility
-            </h1>
+            </h1> */}
             <p className="font-normal text-xs sm:text-sm md:text-base">
-              Phaneretic Services (Phanserv) is a specialist Geotechnical/ Engineering Geological company with a team of qualified and 
+              Phaneretic Services is a specialist Geotechnical/ Engineering Geological company with a team of qualified and 
               competent Engineering Geologists and Professional Civil Technician (led by an Engineering Geologists who is registered with 
               SACNASP and SAIEG), which work closely together to provide a services which far exceed the industry standards
             </p>
-            <div className="flex items-center justify-center space-x-10">
-                <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-[#0E2B5C] border-none outline-none">
+            <div className="flex items-center justify-center space-x-16">
+                <button className="flex items-center justify-center duration-500 w-24 h-9 uppercase sm:w-40 sm:h-12 hover:scale-125 space-x-2 bg-color-h border-none outline-none">
                   <Link href="/services">  
-                    <a className="text-white text-sm md:text-base">Services</a>
+                    <a className="text-white text-sm  duration-500 md:text-lg">Services</a>
                   </Link>
                 </button>
-                <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-white border-none outline-none">
+                <button className="flex items-center justify-center w-24 h-9 uppercase sm:w-40 sm:h-12 hover:scale-125 duration-500 space-x-2 bg-white border-none outline-none">
                     <Link href="/company">
-                      <a className="text-black text-sm md:text-base">About Us</a>
+                      <a className="text-color-h text-sm md:text-lg">About Us</a>
                     </Link>
                 </button>
             </div>

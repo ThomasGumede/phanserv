@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 function ServiceCard({ title, description, font}) {
   return (
-    <div className="grid  bg-white p-10  transition duration-500 group hover:shadow-2xl">
-		<div className="space-y-8 sm:w-[300px] h-[400px]">
+    <div className="grid relative bg-white p-10  transition duration-500 group hover:shadow-2xl">
+		<div className="space-y-8 z-50 sm:w-[300px] h-[400px]">
 			<div className="">
 				{/* <i className="bx bxs-home "></i> */}
 				<i className={`bx text-color-other text-6xl ${font}`}></i>
@@ -17,7 +17,6 @@ function ServiceCard({ title, description, font}) {
 					{description}
 				</p>
 			</div>
-			
 		</div>
 	</div>
   )

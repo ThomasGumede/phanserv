@@ -33,7 +33,7 @@ function Layout({children, title, description}) {
             property="og:description"
             content="Phaneretic Services (Pty) Ltd is a South African owned independent geotechnical consultancy that provides geotechnical services within shallow foundations, roads & transportation, large structures, township development & residential, stability investigations, water & sanitation, geo-environmental investigations, NHBRC enrolments, and borrow pit investigation."
           />
-          <meta property="og:title" content="Phaneretic Services" />
+          <meta property="og:title" content="Phaneretic Services (Pty) Ltd" />
           <meta property="og:image" content="/images/img2.jpg" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>

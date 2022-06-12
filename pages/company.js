@@ -13,7 +13,7 @@ const company = () => {
         <div className="gap-10 flex items-center flex-col md:flex-row w-full justify-between">
             <div className="space-y-7 md:w-2/4">
                 <div className="space-y-5">
-                    <h4 className="font-semibold text-xl md:text-2xl text-color-other">Why Choose Us?</h4>
+                    <h4 className="font-semibold text-xl md:text-2xl text-color-other uppercase">Why Choose Us?</h4>
                   <h1 className="font-semibold text-2xl md:text-3xl xl:text-5xl xl:leading-[50px] leading-10 text-[#0E2B5C]">
                     We provide the ideal combination of competent technical expertise
                     and professional integrity
@@ -166,9 +166,9 @@ const company = () => {
 
           </div>
           <div className="justify-self-center self-center">
-            <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-[#0E2B5C] border-none outline-none">
-              <Link href="/services"><a className="text-white text-sm">Our Services</a></Link>
-              <i className='bx bxs-right-arrow text-white'></i>
+            <button className="btn flex items-center justify-center w-24 h-9 uppercase sm:w-40 sm:h-12 hover:scale-125 duration-500 space-x-2 bg-[#0E2B5C] border-none outline-none">
+              <Link href="/services"><a className="text-white text-sm md:text-lg">Our Services</a></Link>
+              <i className='bx bxs-right-arrow text-white md:text-lg'></i>
             </button>
         </div>
         </div>

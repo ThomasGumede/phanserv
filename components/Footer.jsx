@@ -12,7 +12,7 @@ function Footer() {
                         <img src="/images/logo.png" alt="phanserv logo" className="w-full h-full" />
                     </div>
                     <div className="block">
-                        <h5 className="text-white font-bold text-lg">Phaneretic Services</h5>
+                        <h5 className="text-white font-bold text-lg uppercase">Phaneretic Services</h5>
                     </div>
                 </div>
                 <div className="text-sm text-white">

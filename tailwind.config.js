@@ -28,8 +28,7 @@ module.exports = {
     }
     },
     fontFamily: {
-      'sans': ['Poppins', 'sans-serif'],
-      'sans2': ['Righteous', 'Poppins', 'sans-serif']
+      'sans': ['Oswald', 'sans-serif']
     },
     screens: {
       'xsm': '520px',

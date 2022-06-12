@@ -8,7 +8,7 @@ function HomeAboutUs() {
         <div className="gap-10 flex items-center flex-col md:flex-row w-full justify-between">
             <div className="space-y-7 md:w-2/4">
                 <div className="space-y-5">
-                    <h4 className="font-semibold text-xl md:text-2xl text-color-other">Why Choose Us?</h4>
+                    <h4 className="font-semibold text-xl md:text-2xl text-color-other uppercase">Why Choose Us?</h4>
 					<h1 className="font-semibold text-2xl md:text-3xl xl:text-5xl xl:leading-[50px] leading-10 text-color-h">
 						We provide the ideal combination of competent technical expertise
 						and professional integrity
@@ -33,15 +33,15 @@ function HomeAboutUs() {
                     <div className="grid items-center md:grid-cols-2 gap-3">
 						<div className="flex items-center space-x-4">
 							<i className="bx text-color-other text-lg bxs-right-arrow-circle"></i>
-							<p className="text-color-p">Highly Professional Team</p>
+							<p className="text-color-p">Quality Services</p>
 						</div>
 						<div className="flex items-center space-x-4">
 							<i className="bx text-color-other text-lg bxs-right-arrow-circle"></i>
-							<p className="text-color-p">Highly Professional Team</p>
+							<p className="text-color-p">Good Customer Services</p>
 						</div>
 						<div className="flex items-center space-x-4">
 							<i className="bx text-color-other text-lg bxs-right-arrow-circle"></i>
-							<p className="text-color-p">Highly Professional Team</p>
+							<p className="text-color-p">Affordable rates</p>
 						</div>
 						<div className="flex items-center space-x-4">
 							<i className="bx text-color-other text-lg bxs-right-arrow-circle"></i>
@@ -50,8 +50,8 @@ function HomeAboutUs() {
 					</div>
                     <br />
                     <div className="">
-                       <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-white border-2 border-color-h border-solid outline-none">
-                        <Link href="/company"><a className="text-color-h font-semibold text-sm md:text-base">Read More</a></Link>
+                       <button className="btn flex items-center justify-center w-24 h-9 uppercase sm:w-40 sm:h-12 hover:scale-125 duration-500 space-x-2 bg-white border-2 border-color-h border-solid outline-none">
+                        <Link href="/company"><a className="text-color-h font-semibold text-sm md:text-lg">Read More</a></Link>
                         <i className='bx bxs-right-arrow text-color-h'></i>
                         </button>
                     </div>
@@ -68,9 +68,14 @@ function HomeAboutUs() {
 						<h4 className="text-5xl text-color-other font-semibold">5</h4>
 						<p className="text-base text-color-h font-normal">Qualified Employees</p>
 					</div>
+					<div className="space-y-2">
+						<h4 className="text-5xl text-color-other font-semibold">7</h4>
+						<p className="text-base text-color-h font-normal">Of Experience</p>
+					</div>
                 </div>
-                <div className="content_img_container">
-					<img src="/images/img6.jpg" alt="Pavement material Investigations" className="md:w-[31.25rem] md:h-[28.75rem]" />
+                <div className="md:w-[30.25rem] md:h-[27.75rem] relative">
+					<img src="/images/img6.jpg" alt="Pavement material Investigations" className="w-full h-full" />
+					<img src="/images/img3.jpg" alt="" className="absolute w-[60%] h-[60%] hidden md:block top-60 -left-28 border-t-8 border-r-8 border-white" />
 				</div>
             </div>
 
