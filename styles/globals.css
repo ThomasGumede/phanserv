@@ -5,7 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Righteous&display=swap');
 
 @layer components {
-
+    .show {
+        @apply left-0
+    }
 
     .hov {
         @apply absolute left-0 bottom-0 w-0 h-[2px] bg-color-other rounded-full transition-all duration-300 ease-linear

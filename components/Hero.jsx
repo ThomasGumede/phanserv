@@ -1,17 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React, {useState} from 'react'
+import React from 'react'
 import Link from 'next/link'
 
 function Hero() {
-  const [shadow, setShadow] = useState(false)
 
-  if (typeof window === 'undefined'){
-  
-    }else {
-      if (window.scrollY >= 200){
-        setShadow(true)
-      }
-    }
 
   return (
     <section className="w-full duration-700 h-screen mt-11 font-sans group overflow-hidden">

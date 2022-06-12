@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React, {useState, useEffect} from 'react'
+import React, {useState, useRef} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import NavItem from "./SharedComponents/NavItem";
@@ -7,25 +7,35 @@ import NavItem from "./SharedComponents/NavItem";
 
 
 function Navbar() {
-
-    const [show, setShow] = useState(false)
-    const [shadow, setShadow] = useState("")
-    const [hideNav1, setHideNav1] = useState("flex")
+    const hide = useRef(null)
+    const shadow = useRef(null)
+    const navbar = useRef(null)
 
     const onclick = () => {
-        show === false ? setShow(true) : setShow(false)
+        
+        if(navbar.current.classList.contains("-left-full")){
+            navbar.current.classList.remove("-left-full")
+            navbar.current.classList.add("left-0")
+        }else{
+            navbar.current.classList.add("-left-full")
+            navbar.current.classList.remove("left-0")
+        }
+        // show === false ? setShow(true) : setShow(false)
     }
     if (typeof window === 'undefined'){
 
     }else {
         window.onscroll = () => {
-            setShow(false)
+            navbar.current.classList.add("-left-full")
+            navbar.current.classList.remove("left-0")
             if (window.scrollY >= 200){
-                setShadow("shadow-xl")
-                setHideNav1("hidden")
+                shadow.current.classList.add("shadow-xl")
+                hide.current.classList.remove("sm:flex")
+                hide.current.classList.add("sm:hidden")
             }else {
-                setShadow("")
-                setHideNav1("flex")
+                shadow.current.classList.remove("shadow-xl")
+                hide.current.classList.remove("sm:hidden")
+                hide.current.classList.add("sm:flex")
             }
         }
          
@@ -34,7 +44,7 @@ function Navbar() {
     
   return (
     <header className="w-full fixed z-[1000] top-0 left-0  font-sans">
-        <div className={`hidden bg-color-bg min-w-full sm:${hideNav1} items-center justify-between space-x-10 py-3 px-4`}>
+        <div ref={hide} className={`hidden bg-color-bg min-w-full sm:flex items-center justify-between space-x-10 py-3 px-4`}>
             <div className="flex items-center space-x-3">
                 <div className="flex items-center justify-center space-x-3 text-sm font-normal">
                     <i className='bx bxs-phone text-lg text-color-other'></i>
@@ -71,7 +81,7 @@ function Navbar() {
             </div>
             
         </div>
-        <nav className={`w-full bg-white flex items-center justify-between p-3 sm:px-14 ${shadow}`}>
+        <nav ref={shadow} className={`w-full bg-white flex items-center justify-between p-3 sm:px-14`}>
             <div className="logo_container">
                 <div className="flex items-center space-x-1">
                     <div className="w-10 h-10 sm:h-14 sm:w-14">
@@ -83,7 +93,7 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-            <ul className={`z-50 md:tablet flex phone uppercase ${show === true ? 'left-0': '-left-full'}`}>
+            <ul ref={navbar} className={`z-50 md:tablet flex phone uppercase -left-full`}>
                 <NavItem href="/">Home</NavItem>
                 <NavItem href="/company">Company</NavItem>
                 <NavItem href="/services">Services</NavItem>

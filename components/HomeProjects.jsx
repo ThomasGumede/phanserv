@@ -16,24 +16,15 @@ function HomeProjects() {
 						Our Recent Works
 					</h1>
                 </div>
-                
-                {/* <div className="space-x-4 owl-nav hidden md:flex items-center">
-					<div className="owl-prev cursor-pointer text-color-h text-5xl owl-prev">
-						<i className='bx bxs-left-arrow-circle'></i>	
-					</div>
-					<div className="owl-next cursor-pointer text-color-h text-5xl owl-next">
-						<i className='bx bxs-right-arrow-circle'></i>
-					</div>
-				</div> */}
             </div>
-            <div className=" w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className=" w-full grid items-center justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
 
-            <ProjectCard img="/images/img/img4.jpg" id="1" img_alt="DYNAMIC CONE PENETROMETER"/>
-            <ProjectCard img="/images/img/img-2.jpg" id="2" img_alt="SOIL AND ROCK LOGGING"/>
-            <ProjectCard img="/images/img/im.jpg" id="3" img_alt="ROAD MATERIAL INVESTIGATION"/>
-            <div className="hidden xl:block">
-                <ProjectCard img="/images/img/im1.jpg" id="4" img_alt="Ablution Block Foundation Investigation"/>
-            </div>
+                <ProjectCard img="/images/img/img4.jpg" id="1" img_alt="DYNAMIC CONE PENETROMETER"/>
+                <ProjectCard img="/images/img/img-2.jpg" id="2" img_alt="SOIL AND ROCK LOGGING"/>
+                <ProjectCard img="/images/img/im.jpg" id="3" img_alt="ROAD MATERIAL INVESTIGATION"/>
+                <div className="hidden xl:block">
+                    <ProjectCard img="/images/img/im1.jpg" id="4" img_alt="Ablution Block Foundation Investigation"/>
+                </div>
             </div>
 		<div className="justify-self-center self-center">
                     <button className="btn flex items-center justify-center w-24 h-9 uppercase sm:w-40 sm:h-12 hover:scale-125 duration-500 space-x-2 bg-white border-2 border-color-h border-solid outline-none">
