@@ -7,13 +7,13 @@ import Card from '../components/SharedComponents/ServiceCard'
 
 const company = () => {
   return (
-    <Layout>
-      <Head title="About Us" link="/company" title_link="About Us" img="/images/img8.jpg" img_title="About Us page" />
+    <Layout title="Why Choose Phanserv?">
+      <Head title="About Us" link="/company" title_link="About Us" img="/images/img8.jpg" img_title="About phanserv and geotechnical services" />
       <section className="w-full p-5 font-sans py-36 md:px-16 lg:px-24 grid items-center justify-center">
         <div className="gap-10 flex items-center flex-col md:flex-row w-full justify-between">
             <div className="space-y-7 md:w-2/4">
                 <div className="space-y-5">
-                    <h4 className="heading">Why Choose Us?</h4>
+                    <h4 className="font-semibold text-xl md:text-2xl text-color-other">Why Choose Us?</h4>
                   <h1 className="font-semibold text-2xl md:text-3xl xl:text-5xl xl:leading-[50px] leading-10 text-[#0E2B5C]">
                     We provide the ideal combination of competent technical expertise
                     and professional integrity
@@ -154,20 +154,16 @@ const company = () => {
        <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] py-20 p-3 md:px-7 grid items-center justify-center">
         <div className="py-16 grid justify-center gap-y-10">
           <div className="md:w-[848px] space-y-7 justify-self-center text-center">
-            <h4 className="heading">Our Popular Services</h4>
-            <h1 className="section_title md:leading-[60px]">Better Services at an affordable cost</h1>
+            <h4 className="font-semibold text-xl md:text-2xl text-color-other">Our Popular Services</h4>
+            <h1 className="font-semibold text-2xl md:text-5xl text-color-h md:leading-[60px]">Better Services at an affordable cost</h1>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-centern text-start gap-8 w-full">
-<<<<<<< HEAD
-            <Card font="bxs-home" title="Foundation Investigations" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" />
-            <Card font="bxs-hard-hat" title="Geotechnical Investigation" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" />
-            <Card font="bxs-analyse" title="Reporting & Analysis" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" />
-=======
+
             <Card font="bxs-home" title="Foundation Investigations" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="1"/>
             <Card font="bxs-hard-hat" title="Geotechnical Investigation" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="2" />
             <Card font="bxs-analyse" title="Reporting & Analysis" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's" id="3" />
->>>>>>> ae6322eef19520cc7aaa73077cf553e98b2cd891
+
           </div>
           <div className="justify-self-center self-center">
             <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-[#0E2B5C] border-none outline-none">
@@ -180,7 +176,7 @@ const company = () => {
       <section className="w-full bg-white font-sans p-5 py-20 md:px-16 lg:px-24 grid">
         <div className="w-full justify-between grid grid-cols-1 sm:grid-cols-2 md:flex gap-4">
             <div className="self-start">
-                <h4 className="heading">Contact Us</h4>
+                <h4 className="font-semibold text-xl md:text-2xl text-color-other">Contact Us</h4>
             </div>
             <div className="space-x-4 flex">
                 <div className="text-color-other text-4xl">

@@ -4,7 +4,7 @@ import NavBar from './Navbar'
 import Script from 'next/script'
 import Footer from './Footer';
 
-function Layout({children, title}) {
+function Layout({children, title, description}) {
   return (
       <div>
         <Head>
@@ -26,12 +26,15 @@ function Layout({children, title}) {
           <meta property="og:type" content="website" />
           <meta property="og:site_name" content="Phaneretic Services" />
           <meta content="Geotechical Investigations, Geotechical Consultations" name="keywords" />
-          <meta content="Fa specialist Geotechnical / Engineering Geological company with a team of qualified and competent Engineering Geologists and Professional Civil Technician (led by an Engineering Geologists who is registered with SACNASP and SAIEG), which work closely together to provide a services which far exceed the industry standards" name="description" />
+          <meta 
+          content={description}
+          name="description" />
           <meta
             property="og:description"
-            content="a specialist Geotechnical / Engineering Geological company with a team of qualified and competent Engineering Geologists and Professional Civil Technician (led by an Engineering Geologists who is registered with SACNASP and SAIEG), which work closely together to provide a services which far exceed the industry standards"
+            content="Phaneretic Services (Pty) Ltd is a South African owned independent geotechnical consultancy that provides geotechnical services within shallow foundations, roads & transportation, large structures, township development & residential, stability investigations, water & sanitation, geo-environmental investigations, NHBRC enrolments, and borrow pit investigation."
           />
           <meta property="og:title" content="Phaneretic Services" />
+          <meta property="og:image" content="/images/img2.jpg" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Head>
         <div className="">

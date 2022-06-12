@@ -11,7 +11,7 @@ function HomeProjects() {
         <div className="space-y-7 w-full h-full grid font-sans">
             <div className="flex items-center justify-between w-full">
                 <div className="space-y-5">
-                    <h4 className="heading">Featured Projects</h4>
+                    <h4 className="font-semibold text-xl md:text-2xl text-color-other">Featured Projects</h4>
 					<h1 className="font-semibold text-2xl md:text-3xl xl:text-5xl xl:leading-[50px] leading-10 text-[#0E2B5C]">
 						Our Recent Works
 					</h1>
@@ -27,15 +27,10 @@ function HomeProjects() {
 				</div> */}
             </div>
             <div className=" w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-<<<<<<< HEAD
-                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img/img4.jpg" id="1" />
-                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img/img-2.jpg" id="2" />
-                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img/im.jpg" id="3" />
-=======
-                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img1.jpg" />
-                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img6.jpg"  />
-                <ProjectCard title="Coming Soon" location="Waiting..." img="/images/img4.jpg"  />
->>>>>>> ae6322eef19520cc7aaa73077cf553e98b2cd891
+
+            <ProjectCard img="/images/img/img4.jpg" id="1" img_alt="DYNAMIC CONE PENETROMETER"/>
+            <ProjectCard img="/images/img/img-2.jpg" id="2" img_alt="SOIL AND ROCK LOGGING"/>
+            <ProjectCard img="/images/img/im.jpg" id="3" img_alt="ROAD MATERIAL INVESTIGATION"/>
             </div>
 		<div className="justify-self-center self-center">
                     <button className="btn flex items-center justify-center px-2 h-9 sm:px-4 sm:h-11 hover:animate-bounce rounded-md space-x-2 bg-white border-2 border-color-h border-solid outline-none">

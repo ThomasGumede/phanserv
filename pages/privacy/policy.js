@@ -4,7 +4,7 @@ import Layout from '../../components/Layout'
 
 function policy() {
   return (
-    <Layout>
+    <Layout title="Privacy Policy">
       <Head title="Terms And Conditions" link="/company" title_link="About Us" img="/images/img4.jpg" img_title="About Us page"/>
       <section className="w-full p-5 font-sans bg-white py-36 md:px-16 lg:px-24 grid items-center justify-center">
         <div className="space-y-4">

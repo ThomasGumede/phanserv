@@ -5,7 +5,7 @@ function HomeContacts() {
     <section className="w-full bg-white font-sans p-5 py-20 md:px-16 lg:px-24 grid">
         <div className="w-full justify-between flex flex-col md:flex-row gap-8">
             <div className="self-start">
-                <h4 className="heading">Contact Us</h4>
+                <h4 className="font-semibold text-xl md:text-2xl text-color-other">Contact Us</h4>
             </div>
             <div className="space-x-4 flex">
                 <div className="text-color-other text-4xl">

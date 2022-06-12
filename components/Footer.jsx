@@ -9,7 +9,7 @@ function Footer() {
             <div className="space-y-6">
                 <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 sm:h-14 sm:w-14">
-                        <img src="/images/logo.png" alt="" className="w-full h-full" />
+                        <img src="/images/logo.png" alt="phanserv logo" className="w-full h-full" />
                     </div>
                     <div className="block">
                         <h5 className="text-white font-bold text-lg">Phaneretic Services</h5>
@@ -131,7 +131,7 @@ function Footer() {
         <div className="bg-white w-full p-5 py-10 md:px-16 lg:px-24 gap-10 md:gap-0 flex flex-col md:flex-row justify-between md:items-center">
             <div className="flex flex-col gap-6 md:gap-0 md:flex-row md:items-center md:space-x-6">
                 <div className="w-10 h-10 sm:h-14 sm:w-14">
-                    <img src="/images/logo.png" alt="" className="w-full h-full" />
+                    <img src="/images/logo.png" alt="phanserv logo" className="w-full h-full" />
                 </div>
                 <div className="space-y-2">
                     <div className="flex md:items-center space-x-10">

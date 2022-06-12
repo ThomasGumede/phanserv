@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "catergory": "TEST PIT, DYNAMIC CONE PENETROMETER TEST, DPSH TEST, AUGER HOLES, PERCOLATION TEST,",
+        "catergory": "Test pit, Dynamic Cone Penetromrter Test, Dpsh Test, Auser Holes, Percolation Test",
         "image": "/images/img/img4.jpg",
         "gallery": [
             {
@@ -21,7 +21,7 @@
     },
     {
         "id": 2,
-        "catergory": "CORE LOGGING, CHIP LOGGING, SOIL AND ROCK LOGGING",
+        "catergory": "Core logging, Chip logging, Soil & Rock logging",
         "image": "/images/img/img-2.jpg",
         "gallery": [
             {
@@ -41,7 +41,7 @@
     },
     {
         "id": 3,
-        "catergory": "ROAD MATERIAL INVESTIGATION, BORROW PIT INVESTIGATION, BRIDGES AND CULVERTS",
+        "catergory": "Road Material Investigation, Borrow Pit Investigation, Bridges & Culverts",
         "image": "/images/img/im.jpg",
         "gallery": [
             {
@@ -61,7 +61,7 @@
     },
     {
         "id": 4,
-        "catergory": "ABLUTION BLOCK FOUNDATION INVESTIGATION",
+        "catergory": "Ablution Block Foundation Investigation",
         "image": "/images/img/im1.jpg",
         "gallery": [
             {
@@ -81,8 +81,7 @@
     },
     {
         "id": 5,
-<<<<<<< HEAD
-        "catergory": "FOUNDATION INVESTIGATION",
+        "catergory": "Foundation Investigation",
         "image": "/images/img/iim.jpg",
         "gallery": [
             {
@@ -102,7 +101,7 @@
     },
     {
         "id": 6,
-        "catergory": "PIPELINE AND RESERVIOR INVESTIGATION (BULK WATER SUPPLY SCHEME), WASTEWATER TREATMENT INVESTIGATION",
+        "catergory": "Pipeline & Reservior Investigation (BULK WATER SUPPLY SCHEME), Wastewater Treatment Investigation",
         "image": "/images/img/imm5.jpg",
         "gallery": [
             {
@@ -122,7 +121,7 @@
     },
     {
         "id": 7,
-        "catergory": "PHASE 1 AND PHASE 2 LOW COST HOUSING ",
+        "catergory": "Phase 1 AND Phase 2 Low Cost Housing ",
         "image": "/images/img/imm-1.jpg",
         "gallery": [
             {
@@ -139,18 +138,5 @@
             }
 
         ]
-=======
-        "catergory": "",
-        "title": "",
-        "location": "",
-        "image": "/images/img2.jpg"
-    },
-    {
-        "id": 6,
-        "catergory": "Waiting",
-        "title": "Coming Soon",
-        "location": "Waiting...",
-        "image": "/images/img16.jpg"
->>>>>>> ae6322eef19520cc7aaa73077cf553e98b2cd891
     }
 ]

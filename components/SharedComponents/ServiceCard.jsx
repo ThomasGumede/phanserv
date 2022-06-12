@@ -17,14 +17,6 @@ function ServiceCard({ title, description, font}) {
 					{description}
 				</p>
 			</div>
-			<div className="space-y-5">
-				<div className="bg-color-h h-1 w-full group-hover:bg-color-other duration-500">
-				</div>
-				<div className="flex items-center space-x-3">
-					<Link href='/services'><a className="text-base font-semibold text-color-h duration-500 group-hover:text-color-other">Read more</a></Link>
-					<i className='bx bxs-right-arrow-circle text-lg text-color-h duration-500 group-hover:text-color-other'></i>
-				</div>	
-			</div>
 			
 		</div>
 	</div>

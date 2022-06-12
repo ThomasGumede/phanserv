@@ -4,20 +4,20 @@ import Head from '../components/Head'
 
 const contacts = () => {
   return (
-    <Layout>
-      <Head title="Contacts" link="/contacts" title_link="Contacts" img="/images/img6.jpg" img_title="Contacts page" />
+    <Layout title="Contact Phanserv">
+      <Head title="Contacts" link="/contacts" title_link="Contacts" img="/images/img6.jpg" img_title="Phanserv contact details" />
       <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] p-3 py-20 md:px-7 grid items-center justify-center">
         <div className="py-16 grid justify-center items-center gap-y-10">
           <div className="md:w-[848px] space-y-7 justify-self-center text-center">
-            <h4 className="heading">Contacts Us</h4>
-            <h1 className="section_title md:leading-[60px]">If You Have Any Query, Feel Free To Contact Us</h1>
+            <h4 className="font-semibold text-xl md:text-2xl text-color-other">Contacts Us</h4>
+            <h1 className="font-semibold text-2xl md:text-5xl text-color-h md:leading-[60px]">If You Have Any Query, Feel Free To Contact Us</h1>
           </div>
         </div>
       </section>
       <section className="w-full bg-white font-sans p-5 py-20 md:px-16 lg:px-24 grid">
         <div className="w-full justify-between grid grid-cols-1 sm:grid-cols-2 md:flex gap-4">
             <div className="self-start">
-                <h4 className="heading">Contact Us</h4>
+                <h4 className="font-semibold text-xl md:text-2xl text-color-other">Contact Us</h4>
             </div>
             <div className="space-x-4 flex">
                 <div className="text-color-other text-4xl">

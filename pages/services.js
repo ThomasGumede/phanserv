@@ -7,13 +7,13 @@ import Head from '../components/Head'
 
 function services() {
   return (
-    <Layout>
+    <Layout title="Geotechical Services We Offer">
       <Head title="Our Services" link="/services" title_link="Services" img="/images/img3.jpg" img_title="Services page" />
       <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] p-3 md:px-7 grid items-center justify-center">
         <div className="py-16 grid justify-center gap-y-10">
           <div className="md:w-[848px] space-y-7 justify-self-center text-center">
-            <h4 className="heading">Our Services</h4>
-            <h1 className="section_title md:leading-[60px]">High Quality Geotechnical Solutions Since 2017</h1>
+            <h4 className="font-semibold text-xl md:text-2xl text-color-other">Our Services</h4>
+            <h1 className="font-semibold text-2xl md:text-5xl text-color-h md:leading-[60px]">High Quality Geotechnical Solutions Since 2017</h1>
           </div>
         </div>
       </section>
@@ -22,13 +22,9 @@ function services() {
             <div className="space-y-4">
                 <h1 className="text-color-h text-xl md:text-2xl font-semibold">Geotechnical Services</h1>
                 <p className="text-base text-color-p">
-                    Geotechnical consulting & investigations have been carried out over both non-dolomitic 
-                    areas for numerous Consulting Civil Engineering and Town Planning firms.
+                    Phaneretic Services (Pty) Ltd is a South African owned independent geotechnical consultancy that provides geotechnical services within shallow foundations, roads & transportation, large structures, township development & residential, stability investigations, water & sanitation, geo-environmental investigations, NHBRC enrolments, and borrow pit investigation.
                 </p>
               
-                <p className="text-base text-color-p">
-                    Phaneretic&apos;s geotechnical consulting services include:
-                </p>
                 <ul className="p-4 gap-6 grid grid-cols-1 md:grid-cols-2">
                     <li>
                         <div className="flex items-center space-x-4">
@@ -164,7 +160,7 @@ function services() {
       <section className="w-full bg-white font-sans p-5 py-20 md:px-16 lg:px-24 grid">
         <div className="w-full justify-between grid grid-cols-1 sm:grid-cols-2 md:flex gap-4">
             <div className="self-start">
-                <h4 className="heading">Contact Us</h4>
+                <h4 className="font-semibold text-xl md:text-2xl text-color-other">Contact Us</h4>
             </div>
             <div className="space-x-4 flex">
                 <div className="text-color-other text-4xl">

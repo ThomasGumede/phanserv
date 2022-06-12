@@ -38,7 +38,7 @@ function Navbar() {
             <div className="logo_container">
                 <div className="flex items-center space-x-1">
                     <div className="w-10 h-10 sm:h-14 sm:w-14">
-                        <img src="/images/logo.png" alt="" className="w-full h-full" />
+                        <img src="/images/logo.png" alt="phanserv logo" className="w-full h-full" />
                     </div>
                     <div className="hidden md:block">
                         <h5 className="text-color-other font-bold text-lg">PHANSERV</h5>

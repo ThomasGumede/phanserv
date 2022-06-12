@@ -8,8 +8,8 @@ function HomeAboutUs() {
         <div className="gap-10 flex items-center flex-col md:flex-row w-full justify-between">
             <div className="space-y-7 md:w-2/4">
                 <div className="space-y-5">
-                    <h4 className="heading">Why Choose Us?</h4>
-					<h1 className="font-semibold text-2xl md:text-3xl xl:text-5xl xl:leading-[50px] leading-10 text-[#0E2B5C]">
+                    <h4 className="font-semibold text-xl md:text-2xl text-color-other">Why Choose Us?</h4>
+					<h1 className="font-semibold text-2xl md:text-3xl xl:text-5xl xl:leading-[50px] leading-10 text-color-h">
 						We provide the ideal combination of competent technical expertise
 						and professional integrity
 					</h1>
@@ -70,7 +70,7 @@ function HomeAboutUs() {
 					</div>
                 </div>
                 <div className="content_img_container">
-					<img src="/images/img6.jpg" alt="" className="md:w-[31.25rem] md:h-[28.75rem]" />
+					<img src="/images/img6.jpg" alt="Pavement material Investigations" className="md:w-[31.25rem] md:h-[28.75rem]" />
 				</div>
             </div>
 
