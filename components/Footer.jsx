@@ -17,10 +17,17 @@ function Footer() {
                 </div>
                 <div className="text-sm text-white">
                     <p>
-                        A specialist Geotechnical/ Engineering Geological company with a team of qualified and 
+                        A specialist Geotechnical services company with a team of qualified and 
                         competent Engineering Geologists and Professional Civil Technician, 
                         which work closely together to provide a services which far exceed the industry standards.
                     </p>
+                </div>
+                <div className="font-sans w-36 h-36 overflow-hidden">
+                    <Link href="/projects">
+                       <a className="text-sm text-white block p-2">
+                            <img src="/images/img6.jpg" alt="" className="w-full h-full object-cover" />
+                        </a>  
+                    </Link>
                 </div>
             </div>
             <div className="space-y-4 font-sans">
@@ -100,27 +107,27 @@ function Footer() {
                     Projects
                 </h4>
                 <div className="space-y-2">
-                    <Link href='/services'>
+                    <Link href='/projects'>
                       <a className="text-sm text-white block p-2">
                         Mbatha Rural Housing Development Phase 1
                     </a>  
                     </Link>
-                    <Link href="/services">
+                    <Link href="/projects">
                        <a className="text-sm text-white block p-2">
                             Nkonjeni Hospital Student and Staff Residence
                         </a>  
                     </Link>
-                    <Link href="/services">
+                    <Link href="/projects">
                         <a href="" className="text-sm text-white block p-2">
                             DBSA Schools ,Water and Sanitation
                         </a>  
                     </Link>
-                    <Link href="/services">
+                    <Link href="/projects">
                         <a href="" className="text-sm text-white block p-2">
                             Mvuzane Access Road and Culvert
                         </a>
                     </Link>
-                    <Link href="/services">
+                    <Link href="/projects">
                        <a href="" className="text-sm text-white block p-2">
                             Ntonjambini Pipeline Project
                         </a> 

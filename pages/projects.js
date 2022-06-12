@@ -8,7 +8,7 @@ import data from '../data/projects.data'
 const projects = () => {
   return (
     <Layout title="Geotechnical Services We Perfomed" description="Phanserv has completed more than 67 geotechnical services projects since it was first started.">
-      <Head title="Our Projects" link="/projects" title_link="Projects" img="/images/img2.jpg" img_title="Projects page" />
+      <Head title="Our Projects" link="/projects" title_link="Projects" img="/images/img2.jpg" img_title="Foundation investigation" />
       <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] p-3 py-20 md:px-7 grid items-center justify-center">
         <div className="py-16 grid justify-center items-center gap-y-10">
           <div className="md:w-[848px] space-y-7 justify-self-center text-center">
