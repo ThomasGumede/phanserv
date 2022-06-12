@@ -7,7 +7,7 @@ import Card from '../components/SharedComponents/ServiceCard'
 
 const company = () => {
   return (
-    <Layout title="Why Choose Phanserv?">
+    <Layout title="Why Choose Phanserv?" description="We provide the ideal combination of competent technical expertise and professional integrity">
       <Head title="About Us" link="/company" title_link="About Us" img="/images/img8.jpg" img_title="About phanserv and geotechnical services" />
       <section className="w-full p-5 font-sans py-36 md:px-16 lg:px-24 grid items-center justify-center">
         <div className="gap-10 flex items-center flex-col md:flex-row w-full justify-between">

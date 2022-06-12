@@ -7,7 +7,7 @@ import Head from '../components/Head'
 
 function services() {
   return (
-    <Layout title="Geotechical Services We Offer">
+    <Layout title="Geotechical Services We Offer" description="Phanserv offers best geotechnical services at affordable price">
       <Head title="Our Services" link="/services" title_link="Services" img="/images/img3.jpg" img_title="Services page" />
       <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] p-3 md:px-7 grid items-center justify-center">
         <div className="py-16 grid justify-center gap-y-10">

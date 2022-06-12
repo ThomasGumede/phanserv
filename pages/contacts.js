@@ -4,7 +4,7 @@ import Head from '../components/Head'
 
 const contacts = () => {
   return (
-    <Layout title="Contact Phanserv">
+    <Layout title="Contact Phanserv" description="All phanserv contacts inlcuding physical address">
       <Head title="Contacts" link="/contacts" title_link="Contacts" img="/images/img6.jpg" img_title="Phanserv contact details" />
       <section className="w-full h-full font-sans bg-[hsl(0,0%,97%)] p-3 py-20 md:px-7 grid items-center justify-center">
         <div className="py-16 grid justify-center items-center gap-y-10">
